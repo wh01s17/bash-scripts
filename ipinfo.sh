@@ -1,7 +1,7 @@
 function ipinfo() {
     ip="$1"
-	apikey_ipgeo="YOUR_API_KEY"
-	mode="$2"
+    apikey_ipgeo="YOUR_API_KEY"
+    mode="$2"
 
     if [[ -z "$ip" ]]; then
         echo "Uso: ipinfo <IP> [--whois] [--geo] [--info]"
