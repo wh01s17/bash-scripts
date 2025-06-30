@@ -1,3 +1,6 @@
+# Función de reconocimiento para IPs
+# Puedes agregarla a tu ~/.zshrc o ~/.bashrc
+
 function ipinfo() {
     ip="$1"
     # Get your apikey from https://ipgeolocation.io/
