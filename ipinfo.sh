@@ -1,10 +1,11 @@
 function ipinfo() {
     ip="$1"
+    # Get your apikey from https://ipgeolocation.io/
     apikey_ipgeo="YOUR_API_KEY"
     mode="$2"
 
     if [[ -z "$ip" ]]; then
-        echo "Uso: ipinfo <IP> [--whois] [--geo] [--info]"
+        echo "Use: ipinfo <IP> [--whois] [--geo] [--info]"
         return 1
     fi
 
